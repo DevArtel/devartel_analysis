@@ -1,0 +1,7 @@
+name: devartel_analysis
+description: Flutter analysis configuration used internally in DevArtel
+repository: https://github.com/DevArtel/devartel_analysis
+version: 1.0.0
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"

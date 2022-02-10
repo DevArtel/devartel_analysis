@@ -1,0 +1,41 @@
+include: package:devartel_analysis/lints.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+  errors:
+    # Info
+    unnecessary_this: info
+    avoid_init_to_null: info
+    prefer_collection_literals: info
+    omit_local_variable_types: info
+    prefer_expression_function_bodies: info
+    prefer_null_aware_operators: info
+    avoid_types_on_closure_parameters: info
+
+    # Warning
+    unawaited_futures: warning
+    unnecessary_const: warning
+    prefer_final_fields: warning
+    prefer_final_locals: warning
+    sized_box_for_whitespace: warning
+    unused_local_variable: warning
+    unnecessary_lambdas: warning
+    prefer_mixin: warning
+    avoid_positional_boolean_parameters: warning
+    empty_statements: warning
+    constant_identifier_names: warning
+
+    # Error
+    missing_return: error
+    unused_element: error
+    override_on_non_overriding_member: error
+    annotate_overrides: error
+    await_only_futures: error
+    camel_case_types: error
+    cancel_subscriptions: error
+    close_sinks: error
+    comment_references: error
+    control_flow_in_finally: error
+    avoid_return_types_on_setters: error
