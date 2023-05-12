@@ -9,7 +9,7 @@ dev_dependencies:
   devartel_analysis:
     git:
       url: https://github.com/DevArtel/devartel_analysis.git
-      ref: v1.0.0
+      ref: v2.0.0
 ```
 
 2. Create an `analysis_options.yaml`
@@ -29,6 +29,7 @@ include: package:devartel_analysis/lints.yaml
 analyzer:
   # Provide your analyzer configuration here
 ```
+
 ## Enable/Disable individual rules
 
 This package is customizable, you can change rules depending on project needs.
