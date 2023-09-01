@@ -1,3 +1,10 @@
+## 3.0.0
+
+- Upgrade to Dart `3.0.0`
+- Enable `invalid_case_patterns`
+- Enable `unnecessary_breaks`
+- Disable `prefer_expression_function_bodies`
+
 ## 2.0.0
 
 - Upgrade to Dart `2.19.0`

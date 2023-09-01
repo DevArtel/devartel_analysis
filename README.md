@@ -9,7 +9,7 @@ dev_dependencies:
   devartel_analysis:
     git:
       url: https://github.com/DevArtel/devartel_analysis.git
-      ref: v2.0.0
+      ref: v3.0.0
 ```
 
 2. Create an `analysis_options.yaml`
@@ -49,7 +49,7 @@ linter:
     prefer_single_quotes: true
 ```
 
-## Using with analyzer plugins plugins
+## Using with analyzer plugins
 
 ```yaml
 include: package:devartel_analysis/analysis_options.yaml

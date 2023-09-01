@@ -50,6 +50,7 @@ linter:
     - file_names
     - hash_and_equals
     - implementation_imports
+    - invalid_case_patterns
     - iterable_contains_unrelated_type
     - join_return_with_assignment
     - library_names
@@ -82,7 +83,6 @@ linter:
     - prefer_const_literals_to_create_immutables
     - prefer_contains
     - prefer_equal_for_default_values
-    - prefer_expression_function_bodies
     - prefer_final_fields
     - prefer_final_in_for_each
     - prefer_final_locals
@@ -118,6 +118,7 @@ linter:
     - unawaited_futures
     - unnecessary_await_in_return
     - unnecessary_brace_in_string_interps
+    - unnecessary_breaks
     - unnecessary_const
     - unnecessary_constructor_name
     - unnecessary_getters_setters
